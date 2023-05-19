@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/SearchSchemaForCompanies",
+  "definitions": {
+    "SearchSchemaForCompanies": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "minEmployees": {
+          "type": "integer"
+        },
+        "maxEmployees": {
+          "type": "integer"
+        }
+      },
+      "required": [],
+      "title": "SearchSchemaForCompanies"
+    }
+  }
+}
